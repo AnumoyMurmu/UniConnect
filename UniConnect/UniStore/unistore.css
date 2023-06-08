@@ -1,0 +1,159 @@
+.notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 5px 6px;
+    position: relative;
+    display: inline-block;
+    border-radius: 120%;
+  }
+  
+  .notification:hover {
+    background: blue;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 2px 5px;
+    border-radius: 100%;
+    background: rgb(73, 73, 126);
+    color: white;
+  }
+
+
+  /* message */
+
+  .Message {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 5px 6px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .Message:hover {
+    background: red;
+  }
+  
+  .Message .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 2px 5px;
+    border-radius: 100%;
+    background: rgb(73, 73, 126);;
+    color: white;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+
+
+  /* Search bar */
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  #search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #search-results {
+    font-size: 18px;
+  }
+  
+
+  /* sell */
+  .sell {
+    background-color: rgb(125, 147, 82);
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+  }
+  
+  .notification:hover {
+    background: blue;
+  }
+/*   
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 2px 5px;
+    border-radius: 100%;
+    background: rgb(73, 73, 126);
+    color: white;
+  } */
+
+
+  .fur{
+    border-radius:150%;
+    max-width: 80px;
+  }
+
+  .elec{
+    max-width: 80px;
+    border-radius: 100%;
+
+  }
+  .covid{
+    border-radius:100%;
+    max-width: 80px;
+  }
+
+
+  .recommendation-box {
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .recommendation-box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .recommendation-box h3 {
+    margin-top: 10px;
+  }
+  
+  .recommendation-box p {
+    margin-bottom: 10px;
+  }
+  
+  .recommendation-box a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
+  

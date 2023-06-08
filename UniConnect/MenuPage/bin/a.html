@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniNest</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <script src="./map.js"></script>
+    <script src="./accomodationlisting.js"></script>
+  <header>
+    <h1>UniNest</h1>
+    <nav>
+      <!-- Navigation menu -->
+    </nav>
+  </header>
+
+  <main>
+    <h2>Find Affordable Accommodation</h2>
+    <form id="search-form">
+      <input type="text" id="location-input" placeholder="Location">
+      <input type="number" id="price-range-input" placeholder="Price Range">
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="filters">
+      <!-- Filter options -->
+      <h3>Filters</h3>
+      <label for="location-filter">Location:</label>
+      <input type="text" id="location-filter" placeholder="Enter location">
+    
+      <label for="price-filter">Price Range:</label>
+      <select id="price-filter">
+        <option value="">Any</option>
+        <option value="0-500">₹0 - ₹500</option>
+        <option value="500-1000">₹500 - ₹1000</option>
+        <option value="1000-1500">₹1000 - ₹1500</option>
+        <option value="1500-2000">₹1500 - ₹2000</option>
+      </select>
+    
+      <button id="apply-filters">Apply Filters</button>
+    </div>
+
+    <div id="accommodation-listings">
+      <!-- Accommodation listings dynamically populated with JavaScript -->
+    </div>
+
+    <div id="map"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 UniConnect. All rights reserved.</p>
+  </footer>
+
+ 
+
+</body>
+</html>
